@@ -1,0 +1,113 @@
+
+    body{
+        background-color: black;
+    }
+   h1{
+       color: wheat;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .grid-container{
+       display: grid;
+       grid-template-columns: 33.3% 33.3% 33.3%;
+       grid-template-rows: 33.3% 33.3% 33.3%;
+       border: 1px solid white;
+       gap: 50px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .lost{
+       height: 350px;
+       width: 500px;
+       display: flex;
+       flex-direction: column;
+       border: 1px solid white;
+       margin: 10px;
+       border-radius: 20px;
+       
+   }
+   .heroes{
+       height: 350px;
+       width: 500px;
+       display: flex;
+       flex-direction: column;
+       border: 1px solid white;
+       margin: 10px;
+       border-radius: 20px;
+   }
+   .lost img{
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       height: 298px;
+       width: 497px;
+       border-radius: 20px;
+   }
+   .lost .name{
+       display: flex;
+       justify-content: center;
+       align-items: end;
+       color: white;
+       border: 1px solid wheat;
+       font-weight: bolder;
+       font-size:xx-large;
+       border-radius: 20px;
+       background-color: rgb(47, 47, 47);
+       border-radius: 20px;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .heroes img{
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       height: 298px;
+       width: 497px;
+       border-radius: 20px;
+   }
+   .heroes .name{
+       display: flex;
+       justify-content: center;
+       align-items: end;
+       color: white;
+       border: 1px solid wheat;
+       font-weight: bolder;
+       font-size:xx-large;
+       border-radius: 20px;
+       background-color: rgb(47, 47, 47);
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .ep{
+        border: 1px solid white;
+        border-radius: 20px;
+        height: 300px;
+        grid-template-columns: 80vw;
+        grid-template-rows: repeat(25, 300px);
+        margin: 5px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 200px;
+       
+    }
+    .episodes img{
+        height: 280px;
+        width: 600px;
+        border-radius: 20px;
+        border: 2px solid #333;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .na{
+        color: rgb(45, 224, 0);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        text-shadow: 0 0 30px white;
+        font-size: 5rem;
+
+    }
+ 
